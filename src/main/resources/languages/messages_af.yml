@@ -1,0 +1,297 @@
+---
+commands:
+  help: Toon hierdie hulpskerm
+  cheat: Laat jou toe om items te kul
+  give: Gee iemand 'n paar Slimefun-items
+  guide: Gee vir jouself 'n Slimefun-gids
+  timings: Lag-inligting oor u bediener
+  teleporter: Sien ander Player se wegpunte
+  versions: Lys alle geïnstalleerde Addons
+  search: Deursoek u gids vir die gegewe termyn
+  open_guide: Maak Slimefun se gids oop sonder om die boek te gebruik
+  stats: Wys 'n paar statistieke oor 'n speler
+  research:
+    description: Ontsluit / reset navorsing vir 'n speler
+    reset: "& cJy het kennis van% player% teruggestel"
+    reset-target: "& cJou kennis is teruggestel"
+  backpack:
+    description: Haal 'n bestaande rugsak uit
+    invalid-id: "& 4Die rugsak-ID moet 'n nie-negatiewe nommer wees!"
+    player-never-joined: "& 4No speler met die naam het ooit by die bediener aangesluit
+      nie!"
+    backpack-does-not-exist: "& 4Die rugsak bestaan nie!"
+    restored-backpack-given: "& bTerug suksesvol herstel! Bygevoeg tot u voorraad!"
+guide:
+  locked: GESLUIT
+  locked-category:
+  - Om hierdie kategorie te ontsluit, sal u dit doen
+  - moet alle items van die
+  - volgende kategorieë
+  search:
+    message: "& bWat wil u soek?"
+    name: "& 7Search ..."
+    tooltip: "& bKlik om na 'n item te soek"
+    inventory: Soek na:% item%
+  tooltips:
+    open-category: Klik om oop te maak
+    versions-notice: Dit is baie belangrik as u foute rapporteer!
+    wiki: Kyk na hierdie artikel op die amptelike Slimefun Wiki
+    recipes:
+      machine: Resepte gemaak in hierdie masjien
+      miner: Hulpbronne wat u by hierdie mynwerker kan bekom
+      generator: Beskikbare soorte brandstof
+      gold-pan: Hulpbronne wat u kan bekom
+  cheat:
+    no-multiblocks: "& 4Jy kan nie Multiblocks verneuk nie, jy moet dit bou!"
+  pages:
+    previous: Vorige bladsy
+    next: Volgende bladsy
+  back:
+    title: terug
+    guide: Gaan terug na die Slimefun-gids
+    settings: Gaan terug na die Instellingspaneel
+  languages:
+    updated: 'en u taal is suksesvol ingestel op: & b% lang%'
+    selected-language: 'Tans gekies:'
+    select: Klik om hierdie taal te kies
+    select-default: Klik om die standaardtaal te kies
+    translations:
+      name: "& Is daar iets ontbreek?"
+      lore: Klik om u eie vertaling by te voeg
+  title:
+    main: Slimefun Guide
+    settings: Instellings en inligting
+    languages: Kies u voorkeurtaal
+    credits: Slimefun4-bydraers
+    wiki: Slimefun4 Wiki
+    addons: Addons vir Slimefun4
+    bugs: Foutverslae
+    source: Bronkode
+  credits:
+    commit: pleeg
+    commits: pleeg
+    profile-link: Klik om hul profiel op GitHub te besoek
+    roles:
+      developer: "& 6Developer"
+      wiki: "& 3Wiki-redakteur"
+      resourcepack: "& cResourcepack Kunstenaar"
+      translator: "& 9Translator"
+messages:
+  not-researched: "& 4Jy het nie genoeg kennis om dit te verstaan nie"
+  not-enough-xp: "& 4Jy het nie genoeg XP om dit te ontsluit nie"
+  unlocked: '& bJy het ontsluit & 7 "% navorsing%"'
+  only-players: "& 4Hierdie opdrag is slegs vir spelers"
+  unknown-player: "& 4 Onbekende speler: & c% speler%"
+  no-permission: "& 4Jy het nie die vereiste toestemming om dit te doen nie"
+  usage: "& 4Gebruik: & c% gebruik%"
+  not-online: "& 4% speler% & is nie aanlyn nie!"
+  not-valid-item: "& 4% item% & is nie 'n geldige item nie!"
+  not-valid-amount: "& 4% bedrag% & cis nie 'n geldige bedrag nie: dit moet hoër wees
+    as 0!"
+  given-item: '& bJy is gegee & ''n% bedrag% & 7 "% item% & 7"'
+  give-item: '& bU het% speler% & ''n% bedrag% & 7 "% item% & 7" gegee'
+  not-valid-research: "& 4% navorsing% & is nie 'n geldige navorsing nie!"
+  give-research: '& bU het% player% die navorsing gegee en 7 "% research% & 7"'
+  hungry: "& cJy is te honger om dit te doen!"
+  mode-change: "& b% toestel% -modus is verander na: & 9% modus%"
+  disabled-in-world: "& 4 & lHierdie item is in hierdie wêreld gedeaktiveer"
+  disabled-item: "& 4 & lHierdie item is gedeaktiveer! Hoe het jy dit reggekry?"
+  no-tome-yourself: "& cJy kan nie die & 4Tome of Knowledge & jouself gebruik nie
+    ..."
+  multimeter: "& bStored Energy: & 3% gestoor% & b / & 3% kapasiteit%"
+  talisman:
+    anvil: "& u & u Talisman het u instrument gered om te breek"
+    miner: en u Talisman het u druppels net verdubbel
+    hunter: en u Talisman het u druppels net verdubbel
+    lava: "& u & u Talisman het u gered van brandstigting"
+    water: "& u & u Talisman het u gered van verdrinking"
+    angel: en u Talisman het u gered om valskade op te doen
+    fire: "& u & u Talisman het u gered van brandstigting"
+    magician: "& u & u Talisman het u 'n addisionele betowering gegee"
+    traveller: "& u & u Talisman het u 'n spoedversterking gegee"
+    warrior: "& 'n & u Talisman het u krag vir 'n rukkie verbeter"
+    knight: en u Talisman het u 5 sekondes van wedergeboorte gegee
+    whirlwind: "& u & u Talisman weerspieël die projektiel"
+    wizard: "& u & u Talisman het u 'n beter fortuinvlak gegee, maar miskien ook 'n
+      paar ander betoweringsvlakke verlaag"
+  soulbound-rune:
+    fail: "& cJy kan slegs een item op 'n slag aan jou siel bind."
+    success: "& aJy het hierdie item suksesvol aan jou siel gebind! U sal dit bewaar
+      as u sterf."
+  research:
+    start: "& 7Die Antieke Geeste fluister misterieuse woorde in u oor!"
+    progress: "& 7Jy begin wonder oor & b% navorsing% & e (% vordering%)"
+  fire-extinguish: "& 7Jy het jouself geblus"
+  cannot-place: "& cJy kan nie daardie blok daar plaas nie!"
+  no-pvp: "& cJy kan nie hier inpv nie!"
+  radiation: "& 4Jy is blootgestel aan dodelike bestraling! & cVry ontslae van die
+    radioaktiewe voorwerp of rus die volledige Hazmat-pak aan!"
+  opening-guide: "& bOpeninggids, dit kan 'n paar sekondes duur ..."
+  opening-backpack: "& b As rugsak oopgemaak word, kan dit 'n paar sekondes duur ..."
+  no-iron-golem-heal: "& cDit is nie 'n ystervark nie. U kan dit nie gebruik om Iron
+    Golems te genees nie!"
+  link-prompt: "& eKlik hier:"
+  diet-cookie: "& eJy begin baie lig voel ..."
+  fortune-cookie:
+  - "& 7 Help my, ek is vasgevang in 'n Fortune Cookie Factory!"
+  - "& 7Jy sal môre sterf ... deur 'n Creeper"
+  - "& 7 Op 'n sekere punt in u lewe sal iets sleg gebeur !!!"
+  - "& 7 Volgende week sal u sien dat dit nie die regte wêreld is nie; u is in 'n
+    rekenaarspeletjie"
+  - "& 7Hierdie koekie sal binne 'n paar sekondes goed smaak"
+  - '& 7Die laaste woord wat u sal hoor, sal "UITWERK !!!"'
+  - "& 7 Wat jy ook al doen, moenie 'n Creeper omhels nie ... ek het dit probeer.
+    Dit voel goed, maar dit is nie die moeite werd nie."
+  - Dat & 742. Die antwoord is 42.
+  - "& 7A As u 'n dag walshy, sal die probleme wegbly."
+  - "& 7 Grawe nooit reguit af nie!"
+machines:
+  pattern-not-found: "& eSorrel, ek kon hierdie resep nie herken nie. Plaas die items
+    op die regte patroon in die dispenser."
+  unknown-material: "& eSorrie, ek kon die item in my dispenser nie herken nie. Plaas
+    asseblief iets in wat ek weet."
+  wrong-item: "& eSorrel, ek kon nie die item herken waarop u met my regs geklik het
+    nie. Gaan die resepte na en kyk watter items u kan gebruik."
+  full-inventory: "& eSorrie, my voorraad is te vol!"
+  in-use: "& cHierdie blok se inventaris word tans deur 'n ander speler geopen."
+  ignition-chamber-no-flint: "& c Ontstekingskamer ontbreek Flint en Staal."
+  ANCIENT_ALTAR:
+    not-enough-pedestals: "& 4Die Altaar word nie omring deur die nodige hoeveelheid
+      voetstukke nie & c (% voetstukke% / 8)"
+    unknown-catalyst: "& 4 Onbekende katalisator! & Gebruik eerder die regte resep!"
+    unknown-recipe: "& 4 Onbekende resep! & Gebruik eerder die regte resep!"
+  ANCIENT_PEDESTAL:
+    obstructed: "& 4Pedestal is belemmer! & c Verwyder enigiets bokant die voetstuk!"
+  HOLOGRAM_PROJECTOR:
+    enter-text: "& 7 Voer die gewenste Hologram-teks in u chat in. & r (Kleurkodes
+      word ondersteun!)"
+    inventory-title: Hologram Editor
+  ELEVATOR:
+    no-destinations: "& 4 Geen bestemmings gevind nie"
+    pick-a-floor: "& 3- Kies 'n vloer -"
+    current-floor: "& eDit is die vloer waarop u tans is:"
+    click-to-teleport: "& eKlik & 7 om na hierdie vloer te teleporteer:"
+    enter-name: "& 7 Voer die gewenste vloernaam in u Chat in. & r (Kleurkodes word
+      ondersteun!)"
+    named: "& 2 Hierdie vloer is suksesvol benoem: & r% vloer%"
+  TELEPORTER:
+    teleporting: "& 3Teleporting ..."
+    teleported: Dat & 3Teleported!
+    cancelled: "& 4Teleportasie gekanselleer!"
+    invulnerability: "& b & l U het 30 sekondes onkundigheid gekry!"
+    gui:
+      title: U padpunte
+      tooltip: Klik om te teleporteer
+      time: Geskatte tyd
+  GPS_CONTROL_PANEL:
+    title: GPS - Kontrolepaneel
+    transmitters: Oorsig van die sender
+    waypoints: Waypoint oorsig
+  CARGO_NODES:
+    must-be-placed: "& 4 Moet op 'n bors of masjien geplaas word!"
+anvil:
+  not-working: "& 4Jy kan nie Slimefun Items in 'n aambeeld gebruik nie!"
+backpack:
+  already-open: "& c Jammer, hierdie rugsak is êrens anders oop!"
+  no-stack: "& cJy kan nie rugsakke stapel nie"
+miner:
+  no-ores: "& eSorrie, ek kon geen ertse in die buurt vind nie!"
+workbench:
+  not-enhanced: "& 4Jy kan nie Slimefun Items in 'n normale werkbank gebruik nie"
+gps:
+  deathpoint: "& 4Deathpoint & 7% datum%"
+  waypoint:
+    new: "& e Tik 'n naam vir u nuwe waypoint in die klets in. & 7 (kleurkodes ondersteun!)"
+    added: "& a Suksesvol 'n nuwe waypoint bygevoeg"
+    max: "& 4Jy het die maksimum hoeveelheid waypoints bereik"
+  insufficient-complexity:
+  - "& 4Voldoende GPS-netwerkkompleksiteit: & c% kompleksiteit%"
+  - "& 4a) U het nog nie 'n GPS-netwerkopstelling nie"
+  - "& 4b) U GPS-netwerk is nie kompleks genoeg nie"
+  geo:
+    scan-required: "& 4GEO-scan benodig! & cSkandeer hierdie deel eers met 'n GEO-skandeerder!"
+inventory:
+  no-access: "& 4U mag nie toegang tot hierdie blok hê nie"
+android:
+  started: "& 7Jou Android hervat met die skrip"
+  stopped: "& 7Jou Android het sy skrip laat wag"
+  scripts:
+    already-uploaded: "& 4Hierdie skrif is reeds opgelaai."
+    editor: Skrifredakteur
+    instructions:
+      START: "& 2Start-skrif"
+      REPEAT: "& 9 Herhaal skrif"
+      WAIT: "& eWait 0.5s"
+      GO_FORWARD: "& 7 beweeg vorentoe"
+      GO_UP: "& 7Motor opwaarts"
+      GO_DOWN: "& 7Moe afwaarts beweeg"
+      TURN_LEFT: "& 7Keer links"
+      TURN_RIGHT: "& 7 Draai regs"
+      DIG_UP: "& bDig op"
+      DIG_FORWARD: "& bDig vorentoe"
+      DIG_DOWN: "& bDig af"
+      MOVE_AND_DIG_UP: "& bMove & grawe opwaarts"
+      MOVE_AND_DIG_FORWARD: "& bVerkeer & grawe vorentoe"
+      MOVE_AND_DIG_DOWN: "& bMof & grawe afwaarts"
+      ATTACK_MOBS_ANIMALS: "& 4Ttack & c (Vyandige hommeltuie en diere)"
+      ATTACK_MOBS: "& 4Attack & c (Vyandige menigte)"
+      ATTACK_ANIMALS: "& 4Ttack & c (Diere)"
+      ATTACK_ANIMALS_ADULT: "& 4Ttack & c (Diere en 7 [Volwasse] & c)"
+      CHOP_TREE: "& cChop en Replant"
+      CATCH_FISH: "& bVang vis"
+      FARM_FORWARD: "& bOes en herplant"
+      FARM_DOWN: "& bOes en herplant en 7 (blok onder)"
+      FARM_EXOTIC_FORWARD: "& b Gevorderde oes en herplanting"
+      FARM_EXOTIC_DOWN: "& b Gevorderde oes en herplanting & 7 (blok onder)"
+      INTERFACE_ITEMS: "& 9Push-inventarisinhoud tot die gekoppelde koppelvlak"
+      INTERFACE_FUEL: "& cTrek brandstof uit die gekoppelde koppelvlak"
+    enter-name:
+    - 
+    - "& e Tik 'n naam vir u skrif in"
+    uploaded:
+    - "& BUploading ..."
+    - "& a U skrif is suksesvol opgelaai!"
+    rating:
+      own: "& 4Jy kan nie jou eie skrif beoordeel nie!"
+      already: "& 4Jy het al 'n gradering vir hierdie skrif gelaat!"
+languages:
+  default: Bediener-Standaard
+  en: Engels
+  de: Duitse
+  fr: Frans
+  it: Italiaanse
+  es: Spaans
+  pl: Pools
+  sv: Sweeds
+  nl: Nederlands
+  cs: Tsjeggiese
+  hu: hungarian
+  lv: Lets
+  ru: Russiese
+  sk: slovak
+  zh-CN: Chinees (China)
+  zh-TW: Chinees (Taiwan)
+  vi: Viëtnamees
+  id: Indonesiese
+  el: Griekse
+  he: Hebreeus
+  pt: Portugees (Portugal)
+  pt-BR: Portugees (Brasilië)
+  ar: Arabies
+  af: Afrikaans
+  da: Deense
+  fi: Finse
+  uk: Oekraïens
+  ms: malay
+  'no': Noorse
+  ja: japanese
+  fa: Persiese
+  th: Thai
+  ro: Roemeens
+  bg: Bulgaars
+  ko: Koreaanse
+  tr: turkish
+  hr: Kroaties
+  mk: macedonian
+  sr: serbian
+  be: Wit
